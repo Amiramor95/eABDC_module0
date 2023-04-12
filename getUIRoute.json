@@ -1,0 +1,846 @@
+[{
+    "name": "login-others",
+    "path": "login-others"
+},
+{
+    "name": "signup-others",
+    "path": "signup-others"
+},
+{
+    "name": "recover-password",
+    "path": "recover-password"
+},
+{
+    "name": "login-consultant",
+    "path": "login-consultant"
+},
+{
+    "name": "signup-consultant",
+    "path": "signup-consultant"
+},
+{
+    "name": "recover-password",
+    "path": "recover-password"
+},
+{
+    "name": "login-distributor",
+    "path": "login-distributor"
+},
+{
+    "name": "signup-distributor",
+    "path": "signup-distributor"
+},
+{
+    "name": "recover-password",
+    "path": "recover-password"
+},
+{
+    "name": "login",
+    "path": "login"
+},
+{
+    "name": "signup",
+    "path": "signup"
+},
+{
+    "name": "not-found-advanced",
+    "path": "not-found-advanced"
+},
+{
+    "name": "not-found-simple",
+    "path": "not-found-simple"
+},
+{
+    "name": "not-found-custom",
+    "path": "not-found-custom"
+},
+{
+    "name": "not-found-large-text",
+    "path": "/pages/not-found-large-text"
+},
+{
+    "group": "Admin",
+    "name": "dashboard",
+    "path": "dashboard"
+},
+{
+    "group": "Admin",
+    "name": "announcement",
+    "path": "announcement"
+},
+{
+    "group": "Admin",
+    "name": "pending-task",
+    "path": "pending-task"
+},
+{
+    "group": "Admin",
+    "name": "notification",
+    "path": "notification"
+},
+{
+    "group": "Admin",
+    "name": "profile",
+    "path": "profile"
+},
+{
+    "group": "Admin",
+    "name": "distributor-details-registration",
+    "path": "distributor-details-registration"
+},
+{
+    "group": "Admin",
+    "name": "event-list",
+    "path": "event-list"
+},
+{
+    "group": "Admin",
+    "name": "new-event",
+    "path": "new-event"
+},
+{
+    "group": "Admin",
+    "name": "update-event",
+    "path": "update-event/:MANAGE_EVENT_ID"
+},
+{
+    "group": "Admin",
+    "name": "eventList-approval",
+    "path": "eventList-approval"
+},
+{
+    "group": "Admin",
+    "name": "event-hod-approval",
+    "path": "event-hod-approval"
+},
+{
+    "group": "Admin",
+    "name": "event-approval-details",
+    "path": "event-approval-details"
+},
+{
+    "group": "Admin",
+    "name": "circular-list",
+    "path": "circular-list"
+},
+{
+    "group": "Admin",
+    "name": "new-circular",
+    "path": "new-circular"
+},
+{
+    "group": "Admin",
+    "name": "circular-details",
+    "path": "circular-details"
+},
+{
+    "group": "Admin",
+    "name": "circular-update",
+    "path": "circular-update/:id"
+},
+{
+    "group": "Admin",
+    "name": "circular-hod-approvalList",
+    "path": "circular-hod-approvalList"
+},
+{
+    "group": "Admin",
+    "name": "circular-hod-approvalDetails",
+    "path": "circular-hod-approvalDetails"
+},
+{
+    "group": "Admin",
+    "name": "excel-template",
+    "path": "excel-template"
+},
+{
+    "group": "Admin",
+    "name": "document-checkList",
+    "path": "document-checkList"
+},
+{
+    "group": "Admin",
+    "name": "file-size-setting",
+    "path": "file-size-setting"
+},
+{
+    "group": "Admin",
+    "name": "calendar-management",
+    "path": "calendar-management"
+},
+{
+    "group": "Admin",
+    "name": "address-management",
+    "path": "address-management"
+},
+{
+    "group": "Admin",
+    "name": "address-management2",
+    "path": "address-management2"
+},
+{
+    "group": "Admin",
+    "name": "sms-notification",
+    "path": "sms-notification"
+},
+{
+    "group": "Admin",
+    "name": "http-configure",
+    "path": "http-configure"
+},
+{
+    "group": "Admin",
+    "name": "finance-main-setting",
+    "path": "finance-main-setting"
+},
+{
+    "group": "Admin",
+    "name": "finance-account-setting",
+    "path": "finance-account-setting"
+},
+{
+    "group": "Admin",
+    "name": "email-notification",
+    "path": "email-notification"
+},
+{
+    "group": "Admin",
+    "name": "ldap-configuration",
+    "path": "ldap-configuration"
+},
+{
+    "group": "Admin",
+    "name": "finance-configuration",
+    "path": "finance-configuration"
+},
+{
+    "group": "Admin",
+    "name": "distributor-configuration",
+    "path": "distributor-configuration"
+},
+{
+    "group": "Admin",
+    "name": "consultant-configuration",
+    "path": "consultant-configuration"
+},
+{
+    "group": "Admin",
+    "name": "cpd-configuration",
+    "path": "cpd-configuration"
+},
+{
+    "group": "Admin",
+    "name": "cpd-configuration-2",
+    "path": "cpd-configuration-2"
+},
+{
+    "group": "Admin",
+    "name": "annualFee-configuration",
+    "path": "annualFee-configuration"
+},
+{
+    "group": "Admin",
+    "name": "fundMalaysia-configuration",
+    "path": "fundMalaysia-configuration"
+},
+{
+    "group": "Admin",
+    "name": "maintenance-list",
+    "path": "maintenance-list"
+},
+{
+    "group": "Admin",
+    "name": "screen-access",
+    "path": "screen-access"
+},
+{
+    "group": "Admin",
+    "name": "screen-module",
+    "path": "screen-module"
+},
+{
+    "group": "Admin",
+    "name": "demo-pdfviewer",
+    "path": "demo-pdfviewer"
+},
+{
+    "group": "Admin",
+    "name": "demo-upload",
+    "path": "demo-upload"
+},
+{
+    "group": "Admin",
+    "name": "demo-excelexport",
+    "path": "demo-excelexport"
+},
+{
+    "group": "Admin",
+    "name": "demo-excel",
+    "path": "demo-excel"
+},
+{
+    "group": "Admin",
+    "name": "demo-excelviewer",
+    "path": "demo-excelviewer"
+},
+{
+    "group": "Admin",
+    "name": "demo-koolreport",
+    "path": "demo-koolreport"
+},
+{
+    "group": "Admin",
+    "name": "consultant-profile",
+    "path": "consultant-profile"
+},
+{
+    "group": "Admin",
+    "name": "registered-case",
+    "path": "registered-case"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-recordList",
+    "path": "consultantAlert-recordList"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-consultantCaRecord",
+    "path": "consultantAlert-consultantCaRecord"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-searchConsultant",
+    "path": "consultantAlert-searchConsultant"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-registerNewCase",
+    "path": "consultantAlert-registerNewCase"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-registerExistingRecord",
+    "path": "consultantAlert-registerExistingRecord"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-viewCaRecord",
+    "path": "consultantAlert-viewCaRecord"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-editCaRecord",
+    "path": "consultantAlert-editCaRecord"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-hodLraRecordList",
+    "path": "consultantAlert-hodLraRecordList"
+},
+{
+    "group": "Admin",
+    "name": "consultantAlert-hodLraCaseApproval",
+    "path": "consultantAlert-hodLraCaseApproval"
+},
+{
+    "group": "Admin",
+    "name": "ui",
+    "path": "ui"
+},
+{
+    "group": "Admin",
+    "name": "system-setting",
+    "path": "system-setting"
+},
+{
+    "group": "Admin",
+    "name": "group-management",
+    "path": "group-management"
+},
+{
+    "group": "Admin",
+    "name": "approval-mainList",
+    "path": "approval-mainList"
+},
+{
+    "group": "Admin",
+    "name": "newDistributor-approval-level",
+    "path": "newDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "updateDistributor-approval-level",
+    "path": "updateDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "suspensionRevocationDistributor-approval-level",
+    "path": "suspensionRevocationDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "cessationDistributor-approval-level",
+    "path": "cessationDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "divestmentDistributor-approval-level",
+    "path": "divestmentDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "newConsultant-approval-level",
+    "path": "newConsultant-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "terminationConsultant-approval-level",
+    "path": "terminationConsultant-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "banckruptcyCheckConsultant-approval-level",
+    "path": "banckruptcyCheckConsultant-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "appealConsultant-approval-level",
+    "path": "appealConsultant-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "newCase-approval-level",
+    "path": "newCase-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "fundCreation-approval-level",
+    "path": "fundCreation-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "fundLodgement-approval-level",
+    "path": "fundLodgement-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "fundManagement-approval-level",
+    "path": "fundManagement-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "fundTermination-approval-level",
+    "path": "fundTermination-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "navManagement-approval-level",
+    "path": "navManagement-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "newConsultantPayment-approval-level",
+    "path": "newConsultantPayment-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "distributor-Cancellation-Type",
+    "path": "distributor-Cancellation-Type"
+},
+{
+    "group": "Admin",
+    "name": "distributor-Cancellation-rdSubmissionList",
+    "path": "distributor-Cancellation-rdSubmissionList"
+},
+{
+    "group": "Admin",
+    "name": "distributor-Cancellation-Submission",
+    "path": "distributor-Cancellation-Submission"
+},
+{
+    "group": "Admin",
+    "name": "distributor-Cancellation-Submission-Details",
+    "path": "distributor-Cancellation-Submission-Details"
+},
+{
+    "group": "Admin",
+    "name": "distributor-Cancellation-Appeal-Details",
+    "path": "distributor-Cancellation-Appeal-Details"
+},
+{
+    "group": "Admin",
+    "name": "distributor-Cancellation-Return-Details",
+    "path": "distributor-Cancellation-Return-Details"
+},
+{
+    "group": "Admin",
+    "name": "newDistributorPayment-approval-level",
+    "path": "newDistributorPayment-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "prepaymentRefundDistributor-approval-level",
+    "path": "prepaymentRefundDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "prepaymentTopupDistributor-approval-level",
+    "path": "prepaymentTopupDistributor-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "anualFee-approval-level",
+    "path": "anualFee-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "5ModulesSubmission-approval-level",
+    "path": "5ModulesSubmission-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "newTrainingProvider-approval-level",
+    "path": "newTrainingProvider-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "postVettingSubmission-approval-level",
+    "path": "postVettingSubmission-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "preVettingSubmission-approval-level",
+    "path": "preVettingSubmission-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "revocationCPD-approval-level",
+    "path": "revocationCPD-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "waiverSubmission-approval-level",
+    "path": "waiverSubmission-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "annoucement-approval-level",
+    "path": "annoucement-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "circular-approval-level",
+    "path": "circular-approval-level"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionList-rdApproval",
+    "path": "distributor-SubmissionList-rdApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionDetails-rdApproval",
+    "path": "distributor-SubmissionDetails-rdApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionList-HODrdApproval",
+    "path": "distributor-SubmissionList-HODrdApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionDetails-HODrdApproval",
+    "path": "distributor-SubmissionDetails-HODrdApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionList-lraApproval",
+    "path": "distributor-SubmissionList-lraApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionDetails-lraApproval",
+    "path": "distributor-SubmissionDetails-lraApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionList-supervisionApproval",
+    "path": "distributor-SubmissionList-supervisionApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionDetails-supervisionApproval",
+    "path": "distributor-SubmissionDetails-supervisionApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionList-gmApproval",
+    "path": "distributor-SubmissionList-gmApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionDetails-gmApproval",
+    "path": "distributor-SubmissionDetails-gmApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionList-ceoApproval",
+    "path": "distributor-SubmissionList-ceoApproval"
+},
+{
+    "group": "Admin",
+    "name": "distributor-SubmissionDetails-ceoApproval",
+    "path": "distributor-SubmissionDetails-ceoApproval"
+},
+{
+    "group": "Admin",
+    "name": "fundCreation-list",
+    "path": "fundCreation-list"
+},
+{
+    "group": "Admin",
+    "name": "fundCreation-review",
+    "path": "fundCreation-review"
+},
+{
+    "group": "Admin",
+    "name": "fundLodge-submitList",
+    "path": "fundLodge-submitList"
+},
+{
+    "group": "Admin",
+    "name": "fundLodge-idReview",
+    "path": "fundLodge-idReview"
+},
+{
+    "group": "Admin",
+    "name": "fundApplication-SubmitList",
+    "path": "fundApplication-SubmitList"
+},
+{
+    "group": "Admin",
+    "name": "fundApplication-Approval",
+    "path": "fundApplication-Approval"
+},
+{
+    "group": "Admin",
+    "name": "fundManagement-default",
+    "path": "fundManagement-default"
+},
+{
+    "group": "Admin",
+    "name": "nav-list",
+    "path": "nav-list"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-dashboard",
+    "path": "dashboard"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-self-registration",
+    "path": "distributor-self-registration"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-details-registration",
+    "path": "distributor-details-registration"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-cessation-secondApproval",
+    "path": "distributor-cessation-secondApproval"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-member-selfRegistration",
+    "path": "distributor-member-selfRegistration"
+},
+{
+    "group": "Distributor",
+    "name": "announcement",
+    "path": "announcement"
+},
+{
+    "group": "Distributor",
+    "name": "pending-task",
+    "path": "pending-task"
+},
+{
+    "group": "Distributor",
+    "name": "notification",
+    "path": "notification"
+},
+{
+    "group": "Distributor",
+    "name": "profile",
+    "path": "profile"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-member-detailsRegistration",
+    "path": "distributor-member-detailsRegistration"
+},
+{
+    "group": "Distributor",
+    "name": "reset-password",
+    "path": "reset-password"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-member-verification",
+    "path": "distributor-member-verification"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-member-groupSelection",
+    "path": "distributor-member-groupSelection"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-member-approval",
+    "path": "distributor-member-approval"
+},
+{
+    "group": "Distributor",
+    "name": "fundCreation",
+    "path": "fundCreation"
+},
+{
+    "group": "Distributor",
+    "name": "fundCreationlist",
+    "path": "fundCreationList"
+},
+{
+    "group": "Distributor",
+    "name": "fundCreationSecondLevelReview",
+    "path": "fundCreationSecondLevelReview"
+},
+{
+    "group": "Distributor",
+    "name": "fundLodgementList",
+    "path": "fundLodgementList"
+},
+{
+    "group": "Distributor",
+    "name": "fundLodgementDetails",
+    "path": "fundLodgementDetails"
+},
+{
+    "group": "Distributor",
+    "name": "fundLodgementSubmissionDetails",
+    "path": "fundLodgementSubmissionDetails"
+},
+{
+    "group": "Distributor",
+    "name": "fundLodgementSubmissionList",
+    "path": "fundLodgementSubmissionList"
+},
+{
+    "group": "Distributor",
+    "name": "fundlodgeSubmissionReview",
+    "path": "fundlodgeSubmissionReview"
+},
+{
+    "group": "Distributor",
+    "name": "fundLodgeProfile-review",
+    "path": "fundLodgeProfile-review"
+},
+{
+    "group": "Distributor",
+    "name": "fund_ApplicationList",
+    "path": "fund_ApplicationList"
+},
+{
+    "group": "Distributor",
+    "name": "fund_ApplicationDetails",
+    "path": "fund_ApplicationDetails"
+},
+{
+    "group": "Distributor",
+    "name": "fund_ApplicationFMList",
+    "path": "fund_ApplicationFMList"
+},
+{
+    "group": "Distributor",
+    "name": "fund_ApplicationFMReview",
+    "path": "fund_ApplicationFMReview"
+},
+{
+    "group": "Distributor",
+    "name": "distributor-suspension-appeal",
+    "path": "distributor-suspension-appeal"
+},
+{
+    "group": "Consultant",
+    "name": "consultant-self-registration",
+    "path": "consultant-self-registration"
+},
+{
+    "group": "Consultant",
+    "name": "announcement",
+    "path": "announcement"
+},
+{
+    "group": "Consultant",
+    "name": "pending-task",
+    "path": "pending-task"
+},
+{
+    "group": "Consultant",
+    "name": "notification",
+    "path": "notification"
+},
+{
+    "group": "Consultant",
+    "name": "profile",
+    "path": "profile"
+},
+{
+    "group": "Third Party",
+    "name": "announcement",
+    "path": "announcement"
+},
+{
+    "group": "Third Party",
+    "name": "pending-task",
+    "path": "pending-task"
+},
+{
+    "group": "Third Party",
+    "name": "notification",
+    "path": "notification"
+},
+{
+    "group": "Third Party",
+    "name": "profile",
+    "path": "profile"
+},
+{
+    "group": "Third Party",
+    "name": "nav-list",
+    "path": "nav-list"
+},
+{
+    "group": "Training Provider",
+    "name": "announcement",
+    "path": "announcement"
+},
+{
+    "group": "Training Provider",
+    "name": "pending-task",
+    "path": "pending-task"
+},
+{
+    "group": "Training Provider",
+    "name": "notification",
+    "path": "notification"
+},
+{
+    "group": "Training Provider",
+    "name": "profile",
+    "path": "profile"
+}
+]

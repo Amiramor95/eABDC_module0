@@ -1,0 +1,397 @@
+2021-04-15 : Merge remote-tracking branch 'upstream/master'
+2021-04-15 : update
+app/Http/Controllers/CPDWaiverController.php
+app/Http/Controllers/ManageModuleController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Http/Controllers/SettingPasswordController.php
+app/Http/Controllers/SettingPostalController.php
+app/Http/Controllers/SettingUseridController.php
+routes/api.php
+
+2021-04-05 : Merge remote-tracking branch 'upstream/master'
+2021-04-05 : update
+app/Helpers/SMS.php
+app/Http/Controllers/SettingCalendarController.php
+app/Http/Controllers/SettingGeneralController.php
+routes/api.php
+
+2021-03-31 : Merge remote-tracking branch 'upstream/master'
+2021-03-31 : update
+.env
+app/Http/Controllers/SettingEmailController.php
+app/Http/Controllers/SettingPasswordController.php
+app/Http/Controllers/SettingUseridController.php
+app/Models/SettingUserid.php
+modelGenerator.php
+routes/api.php
+
+2021-03-29 : Merge remote-tracking branch 'upstream/master'
+2021-03-29 : update setting pass
+app/Http/Controllers/SettingEmailController.php
+app/Http/Controllers/SettingPasswordController.php
+resources/views/dynamic_email_template.blade.php
+routes/api.php
+
+2021-03-27 : Merge remote-tracking branch 'upstream/master'
+2021-03-27 : update
+.env
+app/Http/Controllers/SettingCalendarController.php
+app/Http/Controllers/SettingPasswordController.php
+app/Http/Controllers/SmsTacController.php
+app/Models/SettingPassword.php
+modelGenerator.php
+routes/api.php
+
+2021-03-23 : Merge remote-tracking branch 'upstream/master'
+2021-03-23 : update
+.env
+app/Http/Controllers/SettingEmailController.php
+config/mail.php
+routes/api.php
+
+2021-03-21 : Merge remote-tracking branch 'upstream/master'
+2021-03-21 : update
+app/Helpers/Files.php
+app/Http/Controllers/ManageEventController.php
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/SettingEmailController.php
+app/Mail/NewUserNotification.php
+app/Providers/MailConfigServiceProvider.php
+resources/views/dynamic_email_template.blade.php
+
+2021-03-11 : update
+app/Http/Controllers/ManageFormTemplateController.php
+
+2021-03-11 : update
+app/Http/Controllers/ManageFormTemplateController.php
+
+2021-03-11 : update image
+app/Http/Controllers/ManageFormTemplateController.php
+public/public
+
+2021-03-10 : update
+app/Http/Controllers/ManageFormTemplateController.php
+composer.lock
+config/app.php
+config/image.php
+
+2021-03-10 : update
+app/Console/Kernel.php
+app/Helpers/FileReader.php
+app/Helpers/SMS.php
+app/Http/Controllers/ManageEventController.php
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/SmsTacController.php
+composer.json
+composer.lock
+routes/api.php
+
+2021-03-09 : Merge remote-tracking branch 'upstream/master'
+2021-03-09 : update sms tac
+app/Helpers/SMS.php
+app/Http/Controllers/SmsTacController.php
+
+2021-03-09 : update
+app/Helpers/SMS.php
+
+2021-03-09 : update
+.env
+app/Helpers/SMS.php
+app/Http/Controllers/SmsTacController.php
+composer.lock
+
+2021-03-09 : update sms TAC
+app/Helpers/SMS.php
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/SmsTacController.php
+app/Models/SmsTac.php
+composer.json
+composer.lock
+modelGenerator.php
+routes/api.php
+
+2021-03-08 : Merge remote-tracking branch 'upstream/master'
+2021-03-08 : update
+app/Http/Controllers/ManageEventController.php
+
+2021-03-05 : update
+app/Http/Controllers/ManageEventController.php
+
+2021-03-03 : Merge remote-tracking branch 'upstream/master'
+2021-03-03 : update
+app/Http/Controllers/ManageEventController.php
+app/Http/Controllers/SettingCityController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Http/Controllers/SettingPostalController.php
+app/Models/SettingCity.php
+app/Models/SettingPostal.php
+modelGenerator.php
+routes/api.php
+
+2021-02-25 : Merge remote-tracking branch 'upstream/master'
+2021-02-25 : update
+app/Http/Controllers/ManageEventController.php
+composer.lock
+public/storage
+routes/api.php
+
+2021-02-25 : Merge remote-tracking branch 'upstream/master'
+2021-02-25 : update
+.env
+app/Http/Controllers/ConsultantTypeController.php
+app/Http/Controllers/DistributorTypeController.php
+app/Http/Controllers/DocumentController.php
+app/Http/Controllers/ManageAnnouncementController.php
+app/Http/Controllers/ManageEventController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Models/ConsultantType.php
+app/Models/DistributorType.php
+app/Models/SettingGeneral.php
+modelGenerator.php
+routes/api.php
+storage/app/.gitignore
+storage/app/public/.gitignore
+storage/framework/.gitignore
+storage/framework/cache/.gitignore
+storage/framework/cache/data/.gitignore
+storage/framework/sessions/.gitignore
+storage/framework/testing/.gitignore
+storage/framework/views/.gitignore
+storage/logs/.gitignore
+storage/test.php
+
+2021-02-22 : Merge remote-tracking branch 'upstream/master'
+2021-02-22 : update manage event
+app/Http/Controllers/ManageAnnouncementController.php
+app/Http/Controllers/ManageEventController.php
+app/Http/Controllers/ManageRequiredDocumentController.php
+app/Models/ManageAnnouncement.php
+app/Models/ManageEvent.php
+modelGenerator.php
+routes/api.php
+
+2021-02-19 : update manage required document
+app/Http/Controllers/ManageRequiredDocumentController.php
+
+2021-02-19 : Merge remote-tracking branch 'upstream/master'
+2021-02-19 : update
+app/Http/Controllers/ManageRequiredDocumentController.php
+app/Models/ManageRequiredDocument.php
+modelGenerator.php
+routes/api.php
+
+2021-02-18 : Merge remote-tracking branch 'upstream/master'
+2021-02-18 : update
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/ManageRequiredDocumentController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Http/Controllers/SettingSmsController.php
+app/Http/Controllers/TemplateController.php
+app/Models/ManageRequiredDocument.php
+app/Models/Template.php
+modelGenerator.php
+routes/api.php
+
+2021-02-17 : update
+app/Http/Controllers/ManageRequiredDocumentController.php
+app/Http/Controllers/SMSController.php
+routes/api.php
+
+2021-02-17 : Merge remote-tracking branch 'upstream/master'
+2021-02-17 : update
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/ManageRequiredDocumentController.php
+app/Models/ManageRequiredDocument.php
+modelGenerator.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-16 : Merge branch 'master' of hidayatul/module0 into master
+2021-02-16 : Merge remote-tracking branch 'upstream/master'
+2021-02-16 : update submodule api
+app/Http/Controllers/ManageSubmoduleController.php
+app/Models/ManageSubmodule.php
+modelGenerator.php
+routes/api.php
+
+2021-02-16 : update
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/ModulesController.php
+app/Models/Modules.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-15 : Merge remote-tracking branch 'upstream/master'
+2021-02-15 : update
+app/Http/Controllers/ManageFormTemplateController.php
+config/filesystems.php
+routes/api.php
+
+2021-02-14 : update manageformtemplate
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/ManageModuleController.php
+app/Models/ManageFormTemplate.php
+app/Models/SettingLdap.php
+modelGenerator.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-13 : Merge remote-tracking branch 'upstream/master'
+2021-02-13 : update
+public/api-docs/module0.json
+
+2021-02-13 : Merge remote-tracking branch 'upstream/master'
+2021-02-13 : update calendar management
+app/Http/Controllers/CalendarSettingController.php
+app/Http/Controllers/ManageDivisionController.php
+app/Http/Controllers/SettingCalendarController.php
+app/Models/CalendarSetting.php
+app/Models/SettingCalendar.php
+app/Models/calendar_setting.php
+modelGenerator.php
+routes/api.php
+
+2021-02-12 : Merge remote-tracking branch 'upstream/master'
+2021-02-12 : update
+routes/console.php
+
+2021-02-11 : Merge remote-tracking branch 'upstream/master'
+2021-02-11 : update
+app/Http/Controllers/CalendarSettingController.php
+public/api-docs/index2.html
+routes/api.php
+
+2021-02-11 : update calendar
+app/Http/Controllers/CalendarSettingController.php
+routes/api.php
+
+2021-02-11 : Merge remote-tracking branch 'upstream/master'
+2021-02-11 : update
+app/Http/Controllers/AuthController.php
+
+2021-02-11 : update
+.env
+composer.lock
+config/keycloak.php
+public/api-docs/index.html
+
+2021-02-10 : Merge remote-tracking branch 'upstream/master'
+2021-02-10 : update
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/EventMangementController.php
+routes/api.php
+routes/console.php
+
+2021-02-10 : Merge remote-tracking branch 'upstream/master'
+2021-02-10 : update
+.env
+.gitignore
+app/Http/Controllers/EventMangementController.php
+app/Models/EventManagement.php
+database/migrations/2021_02_09_1612859779_create_EVENT_MANAGEMENT_table.php
+modelGenerator.php
+public/api-docs/module0.json
+routes/api.php
+routes/console.php
+
+2021-02-09 : Merge remote-tracking branch 'upstream/master'
+2021-02-09 : update
+.env
+app/Http/Controllers/CalendarSettingController.php
+database/migrations/2021_02_09_1612859779_create_EVENT_MANAGEMENT_table.php
+public/api-docs/module0.json
+routes/console.php
+
+2021-02-09 : update
+.gitignore
+public/api-docs/index.html
+
+2021-02-09 : update
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/CalendarSettingController.php
+app/Http/Controllers/LDAPController.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-09 : Merge remote-tracking branch 'upstream/master'
+2021-02-09 : update
+app/Http/Controllers/CalendarSettingController.php
+app/Http/Controllers/TemplateController.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-08 : update
+app/Http/Controllers/CalendarSettingController.php
+app/Providers/MailConfigServiceProvider.php
+public/api-docs/module0.json
+
+2021-02-08 : update
+app/Providers/MailConfigServiceProvider.php
+
+2021-02-08 : update email configuration
+app/Providers/MailConfigServiceProvider.php
+
+2021-02-08 : update
+2021-02-08 : update
+.env
+app/Providers/MailConfigServiceProvider.php
+
+2021-02-08 : Merge remote-tracking branch 'upstream/master'
+2021-02-08 : update
+.env
+app/Providers/MailConfigServiceProvider.php
+config/app.php
+config/mail.php
+
+2021-02-08 : Merge remote-tracking branch 'upstream/master'
+2021-02-08 : update
+.env
+app/Providers/MailConfigServiceProvider.php
+config/app.php
+config/mail.php
+
+2021-02-08 : Merge remote-tracking branch 'upstream/master'
+2021-02-08 : update
+app/Http/Controllers/EmailController.php
+app/Providers/MailConfigServiceProvider.php
+config/app.php
+public/api-docs/index.html
+public/api-docs/module0.json
+
+2021-02-08 : Merge remote-tracking branch 'upstream/master'
+2021-02-08 : update
+app/Providers/MailConfigServiceProvider.php
+composer.lock
+
+2021-02-05 : Merge remote-tracking branch 'upstream/master'
+2021-02-05 : Merge remote-tracking branch 'upstream/master'
+2021-02-04 : update
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/CalendarSettingController.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-03 : api doc fix
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/CalendarSettingController.php
+public/api-docs/index.html
+public/api-docs/module0.json
+
+2021-02-03 : update
+app/Http/Controllers/CalendarSettingController.php
+routes/api.php
+
+2021-02-03 : update
+app/Http/Controllers/CalendarSettingController.php
+app/Http/Controllers/TemplateController.php
+composer.lock
+routes/api.php
+
+2021-02-03 : Merge remote-tracking branch 'upstream/master'
+2021-02-03 : Merge remote-tracking branch 'upstream/master'
+2021-02-03 : update
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/CalendarSettingController.php
+app/Models/calendar_setting.php
+database/migrations/2021_02_03_043637_create_calendar_settings_table.php

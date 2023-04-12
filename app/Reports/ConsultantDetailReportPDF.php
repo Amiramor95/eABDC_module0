@@ -1,0 +1,116 @@
+<?php
+namespace App\Reports;
+class ConsultantDetailReportPDF extends \koolreport\KoolReport
+{
+    use \koolreport\laravel\Friendship;
+    use \koolreport\clients\FontAwesome;
+    use \koolreport\amazing\Theme;
+    use \koolreport\export\Exportable;
+    use \koolreport\excel\ExcelExportable;
+    use \koolreport\inputs\Bindable;
+    use \koolreport\inputs\POSTBinding;
+    //use \koolreport\cloudexport\Exportable;
+    function defaultParamValues()
+    {
+        $start_date = date('Y-m-d');
+       $end_date = date('Y-m-d');
+        return array(
+            "dateRange"=>array(
+                $start_date,
+                $end_date
+            ),
+            "SETTINGID"=>0,
+            "SCHEMEID" => 0,
+          "DISTRIBUTORIDS" => array(0),
+          //"GROUPIDS" => array(2),
+          //"MODULEIDS" => array(1,2),
+        );
+    }
+    function bindParamsToInputs()
+    {
+        return array(
+          "dateRange"=>"dateRange",
+           "DISTRIBUTORIDS" => "DISTRIBUTORIDS",
+           "SETTINGID",
+           "SCHEMEID",
+        );
+    }
+    function setup()
+    {
+      $query_params = array();
+      $query_params1 = array();
+      $query_params2 = array();
+      if($this->params["DISTRIBUTORIDS"] != array(0) )
+      {
+          $query_params[":DISTRIBUTOR_ID"] = $this->params["DISTRIBUTORIDS"];
+      }
+      if($this->params["SETTINGID"] != 0)
+      {
+          $query_params[":SET_ID"] = $this->params["SETTINGID"];
+      }
+      if($this->params["SCHEMEID"] != 0)
+      {
+          $query_params1[":SCHEME_ID"] = $this->params["SCHEMEID"];
+      }
+        $this->src("mysql")
+        ->query("Select CONSULTANT.CONSULTANT_ID AS CID,CONSULTANT.CONSULTANT_NAME AS CNAME,CONSULTANT.CONSULTANT_NRIC AS NRIC,CONSULTANT.CONSULTANT_PASSPORT_NO AS PASSPORT,CONSULTANT.CONSULTANT_PASSPORT_EXPIRY_NO AS PASSPORTEXPIRE,CONSULTANT.CONSULTANT_FIMM_NO AS FIMMNO,CONSULTANT.CONSULTANT_DOB AS DOB,SETTING_GENERAL.SET_PARAM AS STATUS,SETTING_GENERAL1.SET_PARAM AS GENDER,SETTING_GENERAL2.SET_PARAM AS RACE,CONSULTANT.CONSULTANT_OTHER_RACE AS RACEREMARK,SETTING_GENERAL3.SET_PARAM AS NATIONALITY,SETTING_GENERAL4.SET_PARAM AS COUNTRY,CONSULTANT.CONSULTANT_MOBILE_NO AS MOBILE,CONSULTANT.CONSULTANT_HOUSE_NO AS HOUSE,CONSULTANT.CONSULTANT_EMAIL AS EMAIL,POSTAL.POSTCODE_NO AS CPOSTCODE,CITY.SET_CITY_NAME AS CCITY,STATE.SET_PARAM AS CSTATE,CONCAT_WS(', ',CONSULTANT.CONSULTANT_CORRESPONDENT_ADDR1, CONSULTANT.CONSULTANT_CORRESPONDENT_ADDR2,CONSULTANT.CONSULTANT_CORRESPONDENT_ADDR3) AS CSTREET,POSTAL1.POSTCODE_NO AS PPOSTCODE,CITY1.SET_CITY_NAME AS PCITY,STATE1.SET_PARAM AS PSTATE,CONCAT_WS(', ',CONSULTANT.CONSULTANT_PERMANENT_ADDR1, CONSULTANT.CONSULTANT_PERMANENT_ADDR2,CONSULTANT.CONSULTANT_PERMANENT_ADDR3) AS PSTREET,CONSULTANT_EDUCATION.PROFESSIONAL_CERTIFICATE AS PROCERTIFICATE,ACADEMIC.SET_PARAM AS ACADEMICQUALI
+        from consultant_management.CONSULTANT AS CONSULTANT
+        LEFT JOIN admin_management.SETTING_GENERAL AS SETTING_GENERAL
+        ON SETTING_GENERAL.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_STATUS
+        LEFT JOIN admin_management.SETTING_GENERAL AS SETTING_GENERAL1
+        ON SETTING_GENERAL1.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_GENDER
+        LEFT JOIN admin_management.SETTING_GENERAL AS SETTING_GENERAL2
+        ON SETTING_GENERAL2.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_RACE
+        LEFT JOIN admin_management.SETTING_GENERAL AS SETTING_GENERAL3
+        ON SETTING_GENERAL3.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_CITIZEN
+        LEFT JOIN admin_management.SETTING_GENERAL AS SETTING_GENERAL4
+        ON SETTING_GENERAL4.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_PERMANENT_COUNTRY
+        LEFT JOIN admin_management.SETTING_POSTAL AS POSTAL
+        ON POSTAL.SETTING_POSTCODE_ID = CONSULTANT.CONSULTANT_CORRESPONDENT_POSTAL
+        LEFT JOIN admin_management.SETTING_POSTAL AS POSTAL1
+        ON POSTAL1.SETTING_POSTCODE_ID = CONSULTANT.CONSULTANT_PERMANENT_POSTAL
+        LEFT JOIN admin_management.SETTING_CITY AS CITY
+        ON CITY.SETTING_CITY_ID = CONSULTANT.CONSULTANT_CORRESPONDENT_CITY
+        LEFT JOIN admin_management.SETTING_CITY AS CITY1
+        ON CITY1.SETTING_CITY_ID = CONSULTANT.CONSULTANT_PERMANENT_CITY
+        LEFT JOIN admin_management.SETTING_GENERAL AS STATE
+        ON STATE.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_CORRESPONDENT_STATE
+        LEFT JOIN admin_management.SETTING_GENERAL AS STATE1
+        ON STATE1.SETTING_GENERAL_ID = CONSULTANT.CONSULTANT_PERMANENT_STATE
+        LEFT JOIN consultant_management.CONSULTANT_EDUCATION AS CONSULTANT_EDUCATION
+        ON CONSULTANT_EDUCATION.CONSULTANT_ID = CONSULTANT.CONSULTANT_ID
+        LEFT JOIN admin_management.SETTING_GENERAL AS ACADEMIC
+        ON ACADEMIC.SETTING_GENERAL_ID = CONSULTANT_EDUCATION.LANGUAGE
+        WHERE 1 = 1
+        ".(($this->params["DISTRIBUTORIDS"]!=array(0))?"and CONSULTANT.DISTRIBUTOR_ID in ( :DISTRIBUTOR_ID)":"")."
+        ".(($this->params["SETTINGID"]!= 0)?"and CONSULTANT.CONSULTANT_STATUS = :SET_ID":"")."
+        order by CID asc")
+        ->params($query_params)
+        ->pipe($this->dataStore("CONSULTANTDETAILREPORT"));
+
+        $this->src("mysql")
+        ->query("select CONSULTANT_LICENSE.CONSULTANT_ID AS CONID,CONSULTANT_LICENSE.CONSULTANT_TYPE_ID AS TID,SETTING.SET_PARAM AS STATUSTAG,CONSULTANT_LICENSE.TS_ID AS TS_ID
+        from consultant_management.CONSULTANT_LICENSE AS CONSULTANT_LICENSE
+        LEFT JOIN admin_management.SETTING_GENERAL AS SETTING
+        ON SETTING.SETTING_GENERAL_ID = CONSULTANT_LICENSE.CONSULTANT_STATUS 
+        ")
+        ->pipe($this->dataStore("CONSULTANTLICENSE"));
+
+        $this->src("mysql")
+        ->query("select CONSULTANT_TYPE.CONSULTANT_TYPE_ID AS SCHEMEID,CONSULTANT_TYPE.TYPE_SCHEME AS TYPE_SCHEME
+        from admin_management.CONSULTANT_TYPE AS CONSULTANT_TYPE
+        ")
+        ->pipe($this->dataStore("CONSULTANTSCHEME"));
+
+        $this->src("mysql")
+        ->query("select SETTING.SETTING_GENERAL_ID AS SETTINGID,SETTING.SET_PARAM AS PARAM
+        from admin_management.SETTING_GENERAL AS SETTING where SET_TYPE LIKE '%CLASSIFICATION%'
+        ")
+        ->pipe($this->dataStore("CONSULTANTSTATUS"));
+        $this->src("mysql")
+        ->query("select DISTRIBUTOR.DISTRIBUTOR_ID AS DISTRIBUTORID,DISTRIBUTOR.DIST_NAME AS DIST_NAME
+        from distributor_management.DISTRIBUTOR AS DISTRIBUTOR
+        ")
+        ->pipe($this->dataStore("CONSULTANTDISTRIBUTOR"));
+  }
+}

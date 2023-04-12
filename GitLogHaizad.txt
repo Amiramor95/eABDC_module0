@@ -1,0 +1,1095 @@
+2021-04-18 :  Keycloak : Current User
+GitLogHaizad.txt
+app/Helpers/CurrentUser.php
+app/Helpers/Decrypt.php
+app/Http/Controllers/DemoController.php
+app/Models/KeycloakAuth.php
+tests/encrypt.php
+
+2021-04-16 : update keycloak auth : Assign group
+app/Helpers/CurrentUser.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/DemoController.php
+app/Models/KeycloakDefaultGroup.php
+routes/api.php
+
+2021-04-15 : fix create user 2
+app/Helpers/CurrentUser.php
+
+2021-04-15 : fix create user
+app/Helpers/CurrentUser.php
+app/Http/Controllers/DemoController.php
+app/Http/Controllers/ManageSubmoduleController.php
+app/Http/Controllers/UserController.php
+routes/api.php
+
+2021-04-14 : fix auth
+app/Http/Controllers/AuthController.php
+
+2021-04-14 : add current user
+app/Helpers/CurrentUser.php
+app/Helpers/FileUpload.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/ManageModuleController.php
+app/Http/Kernel.php
+app/Http/Middleware/NullToBlank.php
+
+2021-04-06 : update reset password
+app/Helpers/CurrentUser.php
+app/Http/Controllers/DemoController.php
+routes/api.php
+
+2021-04-02 : change password function
+app/Helpers/CurrentUser.php
+
+2021-03-31 : manage module,update url,and add change password function
+app/Helpers/CurrentUser.php
+app/Http/Controllers/ManageModuleController.php
+config/url.php
+
+2021-03-29 : change db and keycloak setting
+.env
+
+2021-03-27 : update send email
+app/Helpers/SendEmail.php
+app/Helpers/emailTemplate/newRegistration.php
+
+2021-03-26 : add email helper & file upload
+.env
+app/Helpers/FileUpload.php
+app/Helpers/SendEmail.php
+app/Http/Controllers/DemoController.php
+app/Models/Demo.php
+composer.json
+composer.lock
+config/database.php
+
+2021-03-24 : update
+app/Http/Controllers/NotificationController.php
+
+2021-03-23 : update auth login
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/NotificationController.php
+app/Models/Notification.php
+modelGenerator.php
+routes/api.php
+
+2021-03-22 : update
+.env
+
+2021-03-22 : update
+app/Http/Controllers/DemoController.php
+
+2021-03-22 : add user type session
+app/Http/Controllers/AuthController.php
+
+2021-03-22 : add user type
+app/Http/Controllers/AuthController.php
+
+2021-03-20 : demo join
+app/Http/Controllers/DemoController.php
+routes/api.php
+
+2021-03-20 : update auth
+app/Console/Commands/Setup.php
+app/Http/Controllers/AuthController.php
+
+2021-03-19 : add session
+app/Helpers/CurrentUser.php
+app/Http/Controllers/AuthController.php
+app/Http/Middleware/HasAccess.php
+config/access.php
+
+2021-03-18 : update
+app/Http/Controllers/ManageScreenAccessController.php
+app/Http/Controllers/SettingDashboardChartController.php
+routes/api.php
+
+2021-03-17 : fix port
+.env
+
+2021-03-15 : latest
+app/Http/Controllers/SettingDashboardChartController.php
+
+2021-03-15 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module0 into master
+2021-03-15 : dashboard model
+.env
+app/Http/Controllers/SettingDashboardChartController.php
+app/Models/SettingDashboardChart.php
+modelGenerator.php
+
+2021-03-10 : update
+app/Console/Commands/Setup.php
+
+2021-03-10 : update setting
+app/Http/Controllers/AuthController.php
+
+2021-03-10 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module0 into master
+2021-03-10 : update
+.env
+app/Console/Commands/Setup.php
+app/Http/Controllers/TestController.php
+app/Models/KeycloakSettings.php
+
+2021-03-09 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module2 into master
+2021-03-09 : update db setup
+app/Console/Commands/Setup.php
+app/Models/Setting.php
+
+2021-03-09 : latest
+.env
+
+2021-03-09 : latest
+app/Helpers/SMS.php
+
+2021-03-09 : update
+app/Helpers/SMS.php
+composer.lock
+
+2021-03-09 : latest
+2021-03-09 : update
+app/Helpers/SMS.php
+app/Http/Controllers/SettingSmsController.php
+app/Http/Controllers/SmsLogController.php
+app/Models/SmsLog.php
+modelGenerator.php
+routes/api.php
+
+2021-03-08 : SMS tested
+app/Http/Controllers/SettingSmsController.php
+
+2021-03-08 : test sms
+.env
+app/Helpers/SMS.php
+app/Http/Controllers/SettingSmsController.php
+config/laradoc.php
+
+2021-03-08 : SMS send
+app/Helpers/SMS.php
+app/Http/Controllers/SettingSmsController.php
+
+2021-03-08 : update
+.env
+app/Helpers/SMS.php
+app/Http/Controllers/SettingSmsController.php
+composer.json
+composer.lock
+config/secret.php
+routes/api.php
+
+2021-03-04 : doc
+.gitignore
+public/api-docs/favicon-16x16.png
+public/api-docs/favicon-32x32.png
+public/api-docs/fimm-api.png
+public/api-docs/index.html
+public/api-docs/index2.html
+public/api-docs/oauth2-redirect.html
+public/api-docs/swagger-ui-bundle.js
+public/api-docs/swagger-ui-bundle.js.map
+public/api-docs/swagger-ui-es-bundle-core.js
+public/api-docs/swagger-ui-es-bundle-core.js.map
+public/api-docs/swagger-ui-es-bundle.js
+public/api-docs/swagger-ui-es-bundle.js.map
+public/api-docs/swagger-ui-standalone-preset.js
+public/api-docs/swagger-ui-standalone-preset.js.map
+public/api-docs/swagger-ui.css
+public/api-docs/swagger-ui.css.map
+public/api-docs/swagger-ui.js
+public/api-docs/swagger-ui.js.map
+
+2021-03-03 : update .env
+.env
+config/laradoc.php
+
+2021-03-01 : latest
+app/Http/Controllers/AuthController.php
+routes/api.php
+
+2021-02-27 : update user & keycloak config
+app/Http/Controllers/FiMMUserController.php
+app/Http/Controllers/ManageScreenController.php
+app/Http/Controllers/UserController.php
+app/Models/User.php
+config/keycloakAdmin.php
+
+2021-02-26 : show total count
+app/Http/Controllers/ManageScreenAccessController.php
+
+2021-02-25 : generator update
+app/Console/Commands/generateDocs.php
+
+2021-02-25 : generator update
+app/Console/Commands/generateDocs.php
+
+2021-02-25 : audit trail model
+app/Models/ConsultantAppeal.php
+app/Models/CpdModule.php
+app/Models/CpdWaiverReason.php
+app/Models/DistributorType.php
+app/Models/ManageEventDocument.php
+app/Models/ManageFormTemplate.php
+app/Models/ManageGroup.php
+app/Models/ManageModule.php
+app/Models/ManageRequiredDocument.php
+app/Models/ManageScreenAccess.php
+app/Models/SettingCalendar.php
+app/Models/SettingSms.php
+database/migrations/2014_10_12_000000_create_users_table.php
+database/migrations/2020_12_07_051040_create_test_table.php
+database/migrations/2020_12_13_155149_create_file_uploads_table.php
+database/migrations/2020_12_14_023008_create_login_attempt_table.php
+database/migrations/2021_01_05_065118_create_modules_table.php
+database/migrations/2021_01_05_070318_create_sub_modules_table.php
+database/migrations/2021_01_12_033456_create_screens_table.php
+database/migrations/2021_01_14_025112_create_template_table.php
+database/migrations/2021_01_26_051118_create_emails_table.php
+database/migrations/2021_02_03_043637_create_calendar_settings_table.php
+database/migrations/2021_02_05_025219_create_settings_table.php
+database/migrations/2021_02_09_1612859779_create_EVENT_MANAGEMENT_table.php
+database/migrations/2021_02_25_064801_create_ANNUALFEE_CUTOFF_table.php
+database/migrations/2021_02_25_064801_create_APPROVAL_LEVEL_table.php
+database/migrations/2021_02_25_064801_create_AUDIT_TRAIL_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_APPEAL_EXAMINATION_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_APPEAL_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_BANKRUPTCY_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_DESIGNATION_EXEMPTION_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_LICENSE_YEAR_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_QUALIFICATION_table.php
+database/migrations/2021_02_25_064801_create_CONSULTANT_TYPE_table.php
+database/migrations/2021_02_25_064801_create_CPD_HOURS_table.php
+database/migrations/2021_02_25_064801_create_CPD_RENEWAL_CALC_table.php
+database/migrations/2021_02_25_064801_create_CPD_WAIVER_REASON_table.php
+database/migrations/2021_02_25_064801_create_DISTRIBUTOR_TYPE_table.php
+database/migrations/2021_02_25_064801_create_DOCUMENT_ACCESS_table.php
+database/migrations/2021_02_25_064801_create_FINANCE_ACC_CODE_table.php
+database/migrations/2021_02_25_064801_create_FINANCE_ACC_GLCODE_table.php
+database/migrations/2021_02_25_064801_create_FINANCE_FEE_AMOUNT_table.php
+database/migrations/2021_02_25_064801_create_FMS_CUTOFF_TIME_table.php
+database/migrations/2021_02_25_064801_create_FMS_FUNDCATEGORY_table.php
+database/migrations/2021_02_25_064801_create_FMS_FUNDGROUP_table.php
+database/migrations/2021_02_25_064801_create_FMS_FUNDTYPE_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_ANNOUNCEMENT_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_DEPARTMENT_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_DISTRIBUTOR_GROUP_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_DIVISION_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_EVENT_APPROVAL_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_EVENT_DOCUMENT_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_EVENT_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_FORM_TEMPLATE_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_GROUP_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_MODULE_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_REQUIRED_DOCUMENT_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_SCREEN_ACCESS_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_SCREEN_table.php
+database/migrations/2021_02_25_064801_create_MANAGE_SUBMODULE_table.php
+database/migrations/2021_02_25_064801_create_SETTING_CALENDAR_table.php
+database/migrations/2021_02_25_064801_create_SETTING_CITY_table.php
+database/migrations/2021_02_25_064801_create_SETTING_EMAIL_TEMPLATE_table.php
+database/migrations/2021_02_25_064801_create_SETTING_EMAIL_table.php
+database/migrations/2021_02_25_064801_create_SETTING_GENERAL_table.php
+database/migrations/2021_02_25_064801_create_SETTING_LDAP_table.php
+database/migrations/2021_02_25_064801_create_SETTING_PAYMENT_table.php
+database/migrations/2021_02_25_064801_create_SETTING_POSTAL_table.php
+database/migrations/2021_02_25_064801_create_SETTING_SMS_TEMPLATE_table.php
+database/migrations/2021_02_25_064801_create_SETTING_SMS_table.php
+database/migrations/2021_02_25_064801_create_USER_ADDRESS_table.php
+database/migrations/2021_02_25_064801_create_USER_APPROVAL_table.php
+database/migrations/2021_02_25_064801_create_USER_PASSPORT_table.php
+database/migrations/2021_02_25_064801_create_USER_table.php
+database/migrations/2021_02_25_064803_add_foreign_keys_to_MANAGE_ANNOUNCEMENT_table.php
+database/migrations/2021_02_25_064803_add_foreign_keys_to_MANAGE_DEPARTMENT_table.php
+database/migrations/2021_02_25_064803_add_foreign_keys_to_MANAGE_EVENT_APPROVAL_table.php
+database/migrations/2021_02_25_064803_add_foreign_keys_to_MANAGE_EVENT_DOCUMENT_table.php
+database/migrations/2021_02_25_064803_add_foreign_keys_to_MANAGE_EVENT_table.php
+stubs/model.stub
+
+2021-02-25 : cookies function and keycloak group
+.gitignore
+app/Http/Controllers/DocumentController.php
+app/Http/Controllers/ManageGroupController.php
+composer.json
+composer.lock
+config/app.php
+config/audit.php
+config/keycloakAdmin.php
+database/migrations/2021_02_25_014719_create_audits_table.php
+install.php
+routes/api.php
+
+2021-02-24 : Screen Access update
+app/Http/Controllers/ManageScreenAccessController.php
+routes/api.php
+
+2021-02-24 : audit trail
+app/Http/Controllers/AuditTrailController.php
+app/Http/Controllers/ManageScreenAccessController.php
+
+2021-02-24 : latest
+.env
+app/Http/Controllers/AuditTrailController.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/ManageScreenAccessController.php
+config/laradoc.php
+routes/api.php
+
+2021-02-23 : Setting 1 : screen-access complete
+app/Http/Controllers/AuditTrailController.php
+app/Http/Controllers/ManageScreenAccessController.php
+app/Models/AuditTrail.php
+app/Models/ManageScreen.php
+app/Models/ManageScreenAccess.php
+modelGenerator.php
+routes/api.php
+
+2021-02-23 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module0 into master
+2021-02-23 : update screen
+app/Http/Controllers/ManageDepartmentController.php
+app/Http/Controllers/ManageGroupController.php
+app/Http/Controllers/ManageScreenController.php
+app/Models/ManageScreen.php
+routes/api.php
+
+2021-02-19 : manage screen access
+app/Http/Controllers/ManageScreenController.php
+app/Models/ManageScreen.php
+
+2021-02-19 : screen controller
+app/Http/Controllers/ManageScreenController.php
+
+2021-02-19 : manage screen access
+app/Http/Controllers/ManageGroupController.php
+app/Http/Controllers/ManageScreenController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Models/ManageScreen.php
+routes/api.php
+
+2021-02-18 : update from master
+2021-02-18 : update
+app/Http/Controllers/ManageSubmoduleController.php
+app/Http/Controllers/SettingGeneralController.php
+routes/api.php
+
+2021-02-18 : generate fix
+app/Console/Commands/generateDocs.php
+app/Exceptions/Handler.php
+
+2021-02-18 : fix generator
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/ManageDepartmentController.php
+app/Http/Controllers/UserAddressController.php
+app/Models/CpdModulePoint.php
+
+2021-02-17 : settingSms
+modelGenerator.php
+
+2021-02-17 : update
+app/Http/Controllers/FmsFundgroupController.php
+app/Http/Controllers/SMSController.php
+
+2021-02-17 : latest
+routes/api.php
+
+2021-02-17 : .gitignore is now working
+app/Http/Controllers/SettingSmsController.php
+app/Models/SettingSms.php
+public/api-docs/favicon-16x16.png
+public/api-docs/favicon-32x32.png
+public/api-docs/fimm-api.png
+public/api-docs/index.html
+public/api-docs/index2.html
+public/api-docs/module0.json
+public/api-docs/module1.json
+public/api-docs/oauth2-redirect.html
+public/api-docs/swagger-ui-bundle.js
+public/api-docs/swagger-ui-bundle.js.map
+public/api-docs/swagger-ui-es-bundle-core.js
+public/api-docs/swagger-ui-es-bundle-core.js.map
+public/api-docs/swagger-ui-es-bundle.js
+public/api-docs/swagger-ui-es-bundle.js.map
+public/api-docs/swagger-ui-standalone-preset.js
+public/api-docs/swagger-ui-standalone-preset.js.map
+public/api-docs/swagger-ui.css
+public/api-docs/swagger-ui.css.map
+public/api-docs/swagger-ui.js
+public/api-docs/swagger-ui.js.map
+
+2021-02-17 : latest
+app/Http/Controllers/CpdModulePointController.php
+
+2021-02-17 : latest
+app/Http/Controllers/CpdModuleController.php
+public/api-docs/module0.json
+
+2021-02-17 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module0 into master
+2021-02-17 : latest
+app/Console/Commands/generateColumn.php
+
+2021-02-16 : fix
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/ManageFormTemplateController.php
+app/Http/Controllers/SettingSMSController.php
+app/Models/SettingSMS.php
+modelGenerator.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-16 : stash
+app/Http/Controllers/ManageFormTemplateController.php
+public/api-docs/module0.json
+
+2021-02-16 : stash
+2021-02-16 : latest
+app/Http/Controllers/CpdModuleController.php
+public/api-docs/module0.json
+
+2021-02-16 : generator fix
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/ManageModuleController.php
+public/api-docs/module0.json
+
+2021-02-16 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module0 into master
+2021-02-16 : stash
+app/Console/Commands/generateDocs.php
+routes/api.php
+state.loading
+state.loading++
+state.loading--
+
+2021-02-15 : latest generator
+app/Http/Controllers/CpdRenewalCalcController.php
+app/Http/Controllers/CpdWaiverReasonController.php
+
+2021-02-15 : update
+app/Http/Controllers/FmsFundtypeController.php
+app/Http/Controllers/ManageDepartmentController.php
+app/Http/Controllers/SettingEmailTemplateController.php
+app/Models/Ldap.php
+app/Models/ManageDepartment.php
+app/Models/SettingEmailTemplate.php
+modelGenerator.php
+routes/api.php
+
+2021-02-15 : generator update
+app/Console/Commands/generateColumn.php
+app/Http/Controllers/FmsFundcategoryController.php
+app/Http/Controllers/FmsFundgroupController.php
+app/Http/Controllers/ManageGroupController.php
+app/Models/ManageGroup.php
+
+2021-02-15 : revised controller
+app/Console/Commands/generateColumn.php
+app/Http/Controllers/CpdModulePointController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalCalcController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Http/Controllers/CpdWaiverReasonController.php
+app/Http/Controllers/FmsCutoffTimeController.php
+app/Http/Controllers/FmsFundcategoryController.php
+app/Http/Controllers/FmsFundgroupController.php
+app/Http/Controllers/FmsFundtypeController.php
+app/Http/Controllers/FmsNavController.php
+app/Http/Controllers/ManageEventApprovalController.php
+app/Http/Controllers/ManageEventDocumentController.php
+app/Http/Controllers/ManageScreenController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Http/Controllers/SettingPaymentController.php
+app/Http/Controllers/UserAddressController.php
+app/Models/CpdProgram.php
+app/Models/CpdRenewal.php
+app/Models/FmsNav.php
+
+2021-02-15 : setting email update
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/SettingEmailController.php
+app/Models/Email.php
+
+2021-02-15 : generator update
+app/Console/Commands/generateColumn.php
+app/Console/Commands/generateModel.php
+app/Http/Controllers/CpdModulePointController.php
+app/Http/Controllers/CpdRenewalCalcController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Http/Controllers/CpdWaiverReasonController.php
+app/Http/Controllers/FmsCutoffTimeController.php
+app/Http/Controllers/FmsFundcategoryController.php
+app/Http/Controllers/FmsFundgroupController.php
+app/Http/Controllers/FmsFundtypeController.php
+app/Http/Controllers/ManageEventApprovalController.php
+app/Http/Controllers/ManageEventDocumentController.php
+app/Http/Controllers/ManageScreenController.php
+app/Http/Controllers/SettingEmailController.php
+app/Http/Controllers/SettingGeneralController.php
+app/Http/Controllers/SettingPaymentController.php
+app/Http/Controllers/UserAddressController.php
+app/Models/CpdModulePoint.php
+app/Models/CpdRenewalCalc.php
+app/Models/CpdWaiverReason.php
+app/Models/FmsCutoffTime.php
+app/Models/FmsFundcategory.php
+app/Models/FmsFundgroup.php
+app/Models/FmsFundtype.php
+app/Models/ManageEventApproval.php
+app/Models/ManageEventDocument.php
+app/Models/ManageScreen.php
+app/Models/SettingEmail.php
+app/Models/SettingGeneral.php
+app/Models/SettingPayment.php
+app/Models/UserAddress.php
+modelGenerator.php
+
+2021-02-15 : update model generator
+modelGenerator.php
+
+2021-02-15 : remove old LDAP controller
+app/Http/Controllers/LDAPController.php
+
+2021-02-15 : LDAP rename to SettingLdap
+app/Http/Controllers/SettingLdapController.php
+routes/api.php
+
+2021-02-14 : add column generator
+app/Console/Commands/generateColumn.php
+app/Console/Commands/generateModel.php
+app/Http/Controllers/ManageFormTemplateController.php
+modelGenerator.php
+public/api-docs/module0.json
+stubs/controller.model.stub
+test.php
+test.txt
+test2.php
+
+2021-02-13 : update
+app/Http/Controllers/LdapController.php
+
+2021-02-13 : fix LDAP
+app/Http/Controllers/LdapController.php
+app/Http/Controllers/SettingLdapController.php
+public/api-docs/module0.json
+
+2021-02-13 : fix ldap
+app/Http/Controllers/SettingLdapController.php
+app/Models/Ldap.php
+app/Models/SettingLdap.php
+
+2021-02-13 : fix authentication
+app/Http/Controllers/AuthController.php
+public/api-docs/module0.json
+
+2021-02-13 : fix generator
+app/Console/Commands/generateDocs.php
+
+2021-02-12 : adjust generator
+app/Http/Controllers/SettingLdapController.php
+app/Models/SettingLdap.php
+modelGenerator.php
+stubs/controller.model.stub
+
+2021-02-12 : add setup generator
+app/Console/Commands/Setup.php
+
+2021-02-12 : latest
+stubs/controller.model.stub
+
+2021-02-11 : latest
+config/keycloakAdmin.php
+
+2021-02-11 : add ldap model
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/LDAPController_old.php
+modelGenerator.php
+
+2021-02-11 : latest
+modelGenerator.php
+stubs/controller.model.stub
+
+2021-02-11 : stub controller
+app/Console/Commands/ModelMakeCommand.php
+app/Http/Controllers/ConsultantAppealController.php
+app/Models/CalendarSetting.php
+app/Models/ConsultantAppeal.php
+app/Models/CpdModule.php
+app/Models/CpdProgram.php
+app/Models/CpdRenewal.php
+app/Models/Demo.php
+app/Models/EventManagement.php
+app/Models/FmsNav.php
+composer.json
+composer.lock
+modelGenerator.php
+resources/stubs/model.stub
+stubs/cast.stub
+stubs/console.stub
+stubs/controller.api.stub
+stubs/controller.invokable.stub
+stubs/controller.model.api.stub
+stubs/controller.model.stub
+stubs/controller.nested.api.stub
+stubs/controller.nested.stub
+stubs/controller.plain.stub
+stubs/controller.stub
+stubs/factory.stub
+stubs/job.queued.stub
+stubs/job.stub
+stubs/model.stub
+stubs/model_bk.stub
+stubs/observer.plain.stub
+stubs/observer.stub
+stubs/policy.plain.stub
+stubs/policy.stub
+stubs/request.stub
+stubs/resource-collection.stub
+stubs/resource.stub
+stubs/rule.stub
+
+2021-02-11 : controller stub
+.gitignore
+composer.json
+composer.lock
+stubs/controller.model.stub
+
+2021-02-11 : update public
+config/keycloak.php
+
+2021-02-10 : temporary fix
+.env
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/EmailController.php
+config/keycloak.php
+
+2021-02-10 : add update
+app/Http/Controllers/EmailController.php
+modelGenerator.php
+
+2021-02-10 : add update
+app/Http/Controllers/CpdModuleController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/FmsNavController.php
+app/Models/Fms_Nav.php
+modelGenerator.php
+
+2021-02-10 : update stubs
+app/Http/Controllers/CpdModuleController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Models/CpdModule.php
+app/Models/CpdProgram.php
+app/Models/CpdRenewal.php
+stubs/controller.model.stub
+
+2021-02-10 : update generator
+app/Http/Controllers/ConsultantAppealController.php
+app/Http/Controllers/CpdModuleController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Models/CpdModule.php
+app/Models/CpdProgram.php
+app/Models/CpdRenewal.php
+resources/stubs/model.stub
+stubs/controller.model.stub
+
+2021-02-10 : update
+.env
+app/Exceptions/Handler.php
+app/Http/Controllers/ConsultantAppealController.php
+app/Http/Controllers/CpdModuleController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Http/Controllers/EmailController.php
+app/Models/ConsultantAppeal.php
+app/Models/Daasd.php
+app/Models/Email.php
+modelGenerator.php
+stubs/controller.model.stub
+
+2021-02-10 : gitignore
+.env
+.gitignore
+public/api-docs/index.html
+
+2021-02-09 : add stubs controller
+app/Http/Controllers/CpdModuleController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Http/Controllers/DaasdController.php
+app/Http/Controllers/DemoController.php
+app/Http/Controllers/ScreenController.php
+app/Http/Controllers/StubsTestController.php
+app/Models/Daasd.php
+modelGenerator.php
+stubs/cast.stub
+stubs/console.stub
+stubs/controller.api.stub
+stubs/controller.invokable.stub
+stubs/controller.model.api.stub
+stubs/controller.model.stub
+stubs/controller.nested.api.stub
+stubs/controller.nested.stub
+stubs/controller.plain.stub
+stubs/controller.stub
+stubs/factory.stub
+stubs/job.queued.stub
+stubs/job.stub
+stubs/middleware.stub
+stubs/migration.create.stub
+stubs/migration.stub
+stubs/migration.update.stub
+stubs/model.pivot.stub
+stubs/model.stub
+stubs/observer.plain.stub
+stubs/observer.stub
+stubs/policy.plain.stub
+stubs/policy.stub
+stubs/request.stub
+stubs/resource-collection.stub
+stubs/resource.stub
+stubs/rule.stub
+stubs/seeder.stub
+stubs/test.stub
+stubs/test.unit.stub
+
+2021-02-09 : update
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-09 : calendar setting
+app/Http/Controllers/CalendarSettingController.php
+
+2021-02-09 : stash
+2021-02-09 : stages
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/LDAPController.php
+public/api-docs/module0.json
+routes/api.php
+
+2021-02-09 : update model instruction
+modelGenerator.php
+
+2021-02-09 : Upper case model
+app/Console/Commands/ModelMakeCommand.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/CpdModuleController.php
+app/Http/Controllers/CpdProgramController.php
+app/Http/Controllers/CpdRenewalController.php
+app/Http/Controllers/DemoController.php
+app/Models/CpdModule.php
+app/Models/CpdProgram.php
+app/Models/CpdRenewal.php
+
+2021-02-09 : generator
+.env
+app/Console/Commands/generateModel.php
+app/Http/Controllers/DemoController.php
+routes/api.php
+
+2021-02-09 : add models & controller generator
+README.md
+app/Console/Commands/generateModel.php
+modelGenerator.php
+
+2021-02-09 : model modding
+database/migrations/2021_02_09_005728_create_teams_table.php
+
+2021-02-09 : model modding
+app/Console/Commands/ModelMakeCommand.php
+app/Http/Controllers/DemoController.php
+database/migrations/2021_02_09_005728_create_teams_table.php
+resources/stubs/model.stub
+
+2021-02-09 : latest
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/LDAPController.php
+
+2021-02-08 : error handler
+KeycloakGuard.php
+app/Console/Commands/generateDocs.php
+app/Exceptions/Handler.php
+app/Http/Controllers/CalendarSettingController.php
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/LDAPController.php
+routes/api.php
+
+2021-02-08 : update
+2021-02-08 : update
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/AuthController.php
+public/api-docs/module0.json
+
+2021-02-08 : change password app
+.env
+
+2021-02-08 : change password app
+.env
+
+2021-02-08 : remove php artisan migrate
+.env
+public/api-docs/module0.json
+routes/console.php
+
+2021-02-08 : latest code
+app/Http/Controllers/CalendarSettingController.php
+
+2021-02-08 : latest code
+app/Http/Controllers/LDAPController.php
+public/api-docs/module0.json
+
+2021-02-08 : latest code
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/LDAPController.php
+app/Http/Controllers/ModulesController.php
+public/api-docs/module0.json
+
+2021-02-08 : update
+app/Http/Controllers/AuthController.php
+
+2021-02-08 : update generator & instruction
+README.md
+
+2021-02-08 : latest code
+KeycloakGuard.php
+app/Console/Commands/generateDocs.php
+app/Exceptions/Handler.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/LDAPController.php
+app/Http/Controllers/TestController.php
+public/api-docs/module0.json
+
+2021-02-08 : latest code
+KeycloakGuard.php
+app/Console/Commands/generateDocs.php
+app/Exceptions/Handler.php
+app/Http/Controllers/LDAPController.php
+public/api-docs/module0.json
+
+2021-02-08 : update generator
+KeycloakGuard.php
+app/Console/Commands/generateDocs.php
+install.php
+
+2021-02-08 : update generator
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/AuthController.php
+public/api-docs/module0.json
+
+2021-02-05 : add migration
+.gitignore
+database/migrations/2014_10_12_000000_create_users_table.php
+database/migrations/2020_12_07_051040_create_test_table.php
+database/migrations/2020_12_13_155149_create_file_uploads_table.php
+database/migrations/2020_12_14_014936_create_demo_table.php
+database/migrations/2020_12_14_023008_create_login_attempt_table.php
+database/migrations/2020_12_14_023641_create_password_setting_table.php
+database/migrations/2020_12_14_034120_create_divisions_table.php
+database/migrations/2020_12_14_044349_create_roles_table.php
+database/migrations/2021_01_05_065118_create_modules_table.php
+database/migrations/2021_01_05_070318_create_sub_modules_table.php
+database/migrations/2021_01_12_033456_create_screens_table.php
+database/migrations/2021_01_14_025112_create_template_table.php
+database/migrations/2021_01_20_031916_create_companies_table.php
+database/migrations/2021_01_26_051118_create_emails_table.php
+database/migrations/2021_02_05_025219_create_settings_table.php
+
+2021-02-05 : add migration
+database/seeders/EmailSeeder.php
+
+2021-02-05 : api doc gitignore
+.gitignore
+
+2021-02-05 : Merge branch 'master' of http://192.168.2.58:3000/FiMM-Project/module0 into master
+2021-02-05 : auth
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/AuthController.php
+
+2021-02-05 : update README.md
+README.md
+app/Http/Controllers/LDAPController.php
+public/api-docs/module0.json
+
+2021-02-05 : update README.md
+README.md
+
+2021-02-05 : LDAP testing
+README.md
+app/Http/Controllers/LDAPController.php
+
+2021-02-05 : update instruction
+README.md
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/LDAPController.php
+public/api-docs/index.html
+public/api-docs/module0.json
+
+2021-02-05 : update instruction
+JWT.php
+README.md
+
+2021-02-05 : update instruction
+.env.testing
+JWT.php
+README.md
+config/database.php
+database/seeders/DatabaseSeeder.php
+install.php
+tests/Feature/ExampleTest.php
+tests/Unit/ExampleTest.php
+tests/Unit/UserTest.php
+
+2021-02-05 : update README.md > API generator instruction
+README.md
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/LDAPController.php
+
+2021-02-04 : LDAP testing
+routes/api.php
+
+2021-02-04 : latest
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/LDAPController.php
+composer.json
+composer.lock
+config/keycloakAdmin.php
+routes/api.php
+
+2021-02-03 : latest
+app/Console/Commands/generateDocs.php
+public/api-docs/module0.json
+
+2021-02-03 : latest
+.gitignore
+database/migrations/2014_10_12_000000_create_users_table.php
+database/migrations/2020_12_07_051040_create_test_table.php
+database/migrations/2020_12_13_155149_create_file_uploads_table.php
+database/migrations/2020_12_14_014936_create_demo_table.php
+database/migrations/2020_12_14_023008_create_login_attempt_table.php
+database/migrations/2020_12_14_023641_create_password_setting_table.php
+database/migrations/2020_12_14_034120_create_divisions_table.php
+database/migrations/2020_12_14_044349_create_roles_table.php
+database/migrations/2021_01_05_065118_create_modules_table.php
+database/migrations/2021_01_05_070318_create_sub_modules_table.php
+database/migrations/2021_01_12_033456_create_screens_table.php
+database/migrations/2021_01_14_025112_create_template_table.php
+database/migrations/2021_01_20_031916_create_companies_table.php
+database/migrations/2021_01_20_090217_create_settings_table.php
+database/migrations/2021_01_26_051118_create_emails_table.php
+
+2021-02-03 : latest
+.env
+app/Http/Controllers/AuthController.php
+
+2021-02-03 : latest
+app/Http/Controllers/AuthController.php
+
+2021-02-03 : latest
+.env
+app/Http/Controllers/AuthController.php
+composer.lock
+config/keycloakAdmin.php
+
+2021-02-03 : update
+.env
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/FiMMUserController.php
+public/api-docs/module0.json
+
+2021-02-03 : latest
+app/Console/Commands/generateDocs.php
+
+2021-02-03 : latest
+public/api-docs/index.html
+public/api-docs/module0.json
+
+2021-02-03 : latest
+app/Console/Commands/generateDocs.php
+
+2021-02-03 : latest
+app/Http/Controllers/SMSController.php
+public/api-docs/favicon-16x16.png
+public/api-docs/favicon-32x32.png
+public/api-docs/fimm-api.png
+public/api-docs/index.html
+public/api-docs/module0.json
+public/api-docs/module1.json
+public/api-docs/oauth2-redirect.html
+public/api-docs/swagger-ui-bundle.js
+public/api-docs/swagger-ui-bundle.js.map
+public/api-docs/swagger-ui-es-bundle-core.js
+public/api-docs/swagger-ui-es-bundle-core.js.map
+public/api-docs/swagger-ui-es-bundle.js
+public/api-docs/swagger-ui-es-bundle.js.map
+public/api-docs/swagger-ui-standalone-preset.js
+public/api-docs/swagger-ui-standalone-preset.js.map
+public/api-docs/swagger-ui.css
+public/api-docs/swagger-ui.css.map
+public/api-docs/swagger-ui.js
+public/api-docs/swagger-ui.js.map
+
+2021-02-02 : latest
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/AuthController.php
+app/Http/Controllers/EmailController.php
+app/Http/Controllers/FiMMUserController.php
+app/Http/Controllers/LDAPController.php
+app/Http/Controllers/ModulesController.php
+app/Http/Controllers/SMSController.php
+app/Http/Controllers/SettingController.php
+app/Http/Controllers/SubModulesController.php
+
+2021-02-02 : delete public docs
+public/docs/api.json
+public/docs/favicon-16x16.png
+public/docs/favicon-32x32.png
+public/docs/fimm-api.png
+public/docs/index.html
+public/docs/module0.json
+public/docs/module1.json
+public/docs/oauth2-redirect.html
+public/docs/swagger-ui-bundle.js
+public/docs/swagger-ui-bundle.js.map
+public/docs/swagger-ui-es-bundle-core.js
+public/docs/swagger-ui-es-bundle-core.js.map
+public/docs/swagger-ui-es-bundle.js
+public/docs/swagger-ui-es-bundle.js.map
+public/docs/swagger-ui-standalone-preset.js
+public/docs/swagger-ui-standalone-preset.js.map
+public/docs/swagger-ui.css
+public/docs/swagger-ui.css.map
+public/docs/swagger-ui.js
+public/docs/swagger-ui.js.map
+
+2021-02-02 : update
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/CommandController.php
+app/Http/Controllers/LDAPController.php
+app/Http/Controllers/SettingController.php
+config/laradoc.php
+public/docs/module0.json
+public/docs/module1.json
+routes/api.php
+storage/api-docs/api-docs.json
+
+2021-02-01 : latest
+app/Http/Controllers/LDAPController.php
+app/Http/Controllers/SMSController.php
+app/Mail/NewUserNotification.php
+public/docs/module0.json
+routes/api.php
+
+2021-02-01 : latest
+.env
+app/Console/Commands/generateDocs.php
+app/Http/Controllers/CommandController.php
+app/Http/Controllers/FiMMUserController.php
+app/Http/Controllers/ModulesController.php
+app/Http/Controllers/TemplateController.php
+config/laradoc.php
+public/docs/api.json
+public/docs/index.html
+public/docs/module0.json
+public/docs/module1.json
+public/docs/swagger-ui-standalone-preset.js
+routes/api.php
